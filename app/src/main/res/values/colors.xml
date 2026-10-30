@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Municipality accent colours -->
+    <color name="municipality_beijing">#D50000</color>
+    <color name="municipality_shanghai">#CC00CC</color>
+    <color name="municipality_tianjin">#2B2B2B</color>
+    <color name="municipality_chongqing">#FF8F00</color>
+
+    <!-- Text colours -->
+    <color name="color_text_light">#FFFFFFFF</color>
+    <color name="color_text_dark">#212121</color>
+
+    <!-- Neutral background -->
+    <color name="color_default_background">#F5F0F5</color>
+
+    <!-- Launcher icon background -->
+    <color name="ic_launcher_background">#000000</color>
+</resources>
