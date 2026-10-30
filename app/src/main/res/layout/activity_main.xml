@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/color_default_background">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/main_title"
+        android:textColor="@color/color_text_dark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/main_title"
+        android:src="@drawable/chinese_municipalities" />
+
+    <TextView
+        android:id="@+id/textInputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:text="@string/input_label"
+        android:textColor="@color/color_text_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextMunicipality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_hint"
+        android:inputType="text"
+        android:singleLine="true"
+        android:imeOptions="actionGo"
+        android:importantForAutofill="no" />
+
+</LinearLayout>
